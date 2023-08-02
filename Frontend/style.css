@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body {
+    display: flex;
+    background-image: url();
+    height: 1000px;
+}
+
+.padre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 1350px;
+    height: 100px;
+    background-color: #f7f7f7;
+}
+
+.logo {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cf9d9b;
+    color: black;
+    text-decoration: none;
+    width: 400px;
+    height: 400px;
+}
+
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cf9d9b;
+    color: black;
+    text-decoration: none;
+}
+
+
+.ventana-flotante {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+ 
+.contenido-ventana {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Establece la altura del contenedor para centrar verticalmente */
+}
+
+
+.contenedor {
+    position: relative;
+    height: 300px; /* Establece la altura del contenedor para centrar verticalmente */
+}
+ 
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.buscador {
+    margin: 2%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+}
+
+
+.buscar {
+    display: flex;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.buscar:hover {
+    display: flex;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.btnAbrir {
+    display: flex;
+    background-color: #cf9d9b;
+}
+
+
+.hijo {
+    display: flex;
+    align-content: stretch;
+}
+
+
+.barra_inferior {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.right {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+
+.left {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+
+
